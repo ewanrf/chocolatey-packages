@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>brother-ptp700-driver</id>
+    <version>7.3.0</version>
+    <title>Brother PT-P700 Printer Driver</title>
+    <owners>ewanrf</owners>
+    <authors>Brother Industries, Ltd.</authors>
+    <copyright>Copyright Brother Industries, Ltd.</copyright>
+    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages/tree/brother-ptp700-driver</packageSourceUrl>
+    <projectUrl>https://support.brother.com/g/b/producttop.aspx?c=us&amp;lang=en&amp;prod=p700eus</projectUrl>
+    <licenseUrl>https://support.brother.com/g/s/agreement/English/agree.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://support.brother.com/g/b/manualtop.aspx?c=us&amp;lang=en&amp;prod=p700eus</docsUrl>
+    <bugTrackerUrl>https://www.brother-usa.com/contact-us</bugTrackerUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ewanrf/chocolatey-packages@brother-ptp700-driver-7.3.0/icons/brother-ptp700-driver.png</iconUrl>
+    <tags>brother pt-p700 ptp700 p-touch printer label driver hardware</tags>
+    <summary>Windows printer driver for the Brother PT-P700 label printer.</summary>
+    <description>Installs Brother's printer driver for the PT-P700 label printer.
+
+This package installs only the printer driver. It does not install P-touch Editor, P-touch Update Software, or the Printer Setting Tool. Windows on ARM is not supported by the vendor.</description>
+    <releaseNotes>Packages Brother Printer Driver 7.3.0d, released 17 February 2025.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+
