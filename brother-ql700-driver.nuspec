@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>brother-ql700-driver</id>
+    <version>6.5.0</version>
+    <title>Brother QL-700 Printer Driver</title>
+    <owners>ewanrf</owners>
+    <authors>Brother Industries, Ltd.</authors>
+    <copyright>Copyright Brother Industries, Ltd.</copyright>
+    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages/tree/brother-ql700-driver</packageSourceUrl>
+    <projectUrl>https://support.brother.com/g/b/producttop.aspx?c=us&amp;lang=en&amp;prod=lpql700eus</projectUrl>
+    <licenseUrl>https://support.brother.com/g/s/agreement/English/agree.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://support.brother.com/g/b/manualtop.aspx?c=us&amp;lang=en&amp;prod=lpql700eus</docsUrl>
+    <bugTrackerUrl>https://www.brother-usa.com/contact-us</bugTrackerUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ewanrf/chocolatey-packages@brother-ql700-driver-6.5.0/icons/brother-ql700-driver.png</iconUrl>
+    <tags>brother ql-700 ql700 printer label driver hardware admin</tags>
+    <summary>Windows printer driver for the Brother QL-700 label printer.</summary>
+    <description>Installs Brother's printer driver for the QL-700 label printer.
+
+This package installs only the printer driver. It does not install P-touch Editor or other Brother utilities. Windows on ARM is not supported by the vendor.
+
+For unattended installation, the package adds the exact Brother code-signing certificate used by this driver to the local machine's Trusted Publishers certificate store.</description>
+    <releaseNotes>Packages Brother Printer Driver 6.5.0c, released 18 February 2025.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
