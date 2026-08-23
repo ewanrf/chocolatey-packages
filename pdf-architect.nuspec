@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pdf-architect</id>
+    <version>10.0.24.1</version>
+    <title>PDF Architect</title>
+    <owners>ewanrf</owners>
+    <authors>Avanquest pdfforge GmbH</authors>
+    <copyright>Copyright Avanquest pdfforge GmbH</copyright>
+    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages</packageSourceUrl>
+    <projectUrl>https://www.pdfforge.org/pdfarchitect</projectUrl>
+    <licenseUrl>https://www.pdfforge.org/pdfarchitect/eula</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://support.pdfarchitect.org/hc/en-us</docsUrl>
+    <bugTrackerUrl>https://support.pdfarchitect.org/hc/en-us/requests/new</bugTrackerUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ewanrf/chocolatey-packages@pdf-architect-10.0.24.1/icons/pdfarchitect.png</iconUrl>
+    <tags>pdfarchitect pdfforge avanquest pdf editor viewer windows admin</tags>
+    <summary>PDF viewer and editor from Avanquest pdfforge.</summary>
+    <description>PDF Architect is a PDF viewer and editor for Windows. The free plan includes PDF viewing, PDF creation from Microsoft Office files, and basic page operations. Paid plans enable further editing, conversion, forms, OCR, security, and e-signature features.
+
+This package downloads the signed PDF Architect 10 installer directly, bypassing the small web-download wrapper supplied by the public download page. It installs silently without launching PDF Architect, changing the default PDF application, creating a desktop shortcut, enabling automatic updates, enabling notifications, or installing Messenger.
+
+Some features require a paid PDF Architect subscription and account.</description>
+    <releaseNotes>Packages PDF Architect 10.0.24.1. PDF Architect 10 introduces a redesigned interface, a new technology foundation, stability fixes, and security fixes.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
