@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rovo-desktop</id>
+    <version>1.55.163.0</version>
+    <title>Rovo Desktop</title>
+    <owners>ewanrf</owners>
+    <authors>Atlassian</authors>
+    <copyright>Atlassian</copyright>
+    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages</packageSourceUrl>
+    <projectUrl>https://www.atlassian.com/software/rovo</projectUrl>
+    <licenseUrl>https://www.atlassian.com/legal/atlassian-customer-agreement</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://support.atlassian.com/rovo/docs/get-started-with-rovo-desktop/</docsUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ewanrf/chocolatey-packages@rovo-desktop-1.55.163/icons/rovo.png</iconUrl>
+    <tags>rovo rovo-desktop atlassian ai chat agents desktop windows admin</tags>
+    <summary>Atlassian's desktop app for Rovo Chat, agents, and tasks.</summary>
+    <description>Rovo Desktop is Atlassian's beta desktop app for Windows. It provides a dedicated place to use Rovo Chat, manage agents, and complete tasks while connected to workplace knowledge.
+
+An Atlassian account with access to Rovo is required. Availability depends on your Atlassian products, plan, and organization settings.
+
+This package installs the official signed MSI supplied by Atlassian. It selects the native x64 or ARM64 installer, validates its SHA-256 checksum, and performs a silent machine-wide installation.</description>
+    <releaseNotes>Packages the Rovo Desktop 1.55.163.0 beta release for Windows x64 and ARM64.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
