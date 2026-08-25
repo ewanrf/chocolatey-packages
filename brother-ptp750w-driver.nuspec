@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>brother-ptp750w-driver</id>
-    <version>7.3.0</version>
+    <version>7.3.1</version>
     <title>Brother PT-P750W Printer Driver</title>
-    <owners>ewanrf</owners>
+    <owners>seacrackersinception</owners>
     <authors>Brother Industries, Ltd.</authors>
     <copyright>Copyright Brother Industries, Ltd.</copyright>
     <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages/tree/brother-ptp750w-driver</packageSourceUrl>
@@ -21,7 +21,7 @@
 This package installs only the printer driver. It does not install P-touch Editor, the Printer Setting Tool, Status Monitor or wireless setup utilities. Windows on ARM is not supported by the vendor.
 
 For unattended installation, the package temporarily adds the exact Brother signing certificate embedded in the checksum-pinned installer to the local machine Trusted Publishers store. The certificate is removed immediately after installation unless it was already trusted.</description>
-    <releaseNotes>Packages Brother Printer Driver 7.3.0c, released 18 February 2025. Temporarily trusts the verified Brother driver-signing certificate during installation to prevent an interactive Windows Security prompt.</releaseNotes>
+    <releaseNotes>Packaging metadata update: sets the package owner to seacrackersinception. Packages Brother Printer Driver 7.3.0c, released 18 February 2025. Temporarily trusts the verified Brother driver-signing certificate during installation to prevent an interactive Windows Security prompt.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
