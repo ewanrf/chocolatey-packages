@@ -2,17 +2,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>brother-bpac3-client-component</id>
-    <version>3.4.15</version>
+    <version>3.4.16</version>
     <title>Brother b-PAC3 Client Component</title>
     <owners>seacrackersinception</owners>
     <authors>Brother Industries, Ltd.</authors>
     <copyright>Copyright Brother Industries, Ltd.</copyright>
-    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages/tree/brother-bpac3-client-component-3.4.15</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages/tree/brother-bpac3-client-component-3.4.16</packageSourceUrl>
     <projectUrl>https://support.brother.com/g/s/es/dev/en/bpac/download/index.html?c=eu_ot&amp;comple=on&amp;lang=en&amp;navi=offall&amp;redirect=on</projectUrl>
     <licenseUrl>https://support.brother.com/g/s/agreement/English/agree.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://support.brother.com/g/s/es/dev/en/bpac/faq/index.html?c=eu_ot&amp;comple=on&amp;lang=en&amp;navi=offall&amp;redirect=on</docsUrl>
     <bugTrackerUrl>https://www.brother-usa.com/contact-us</bugTrackerUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ewanrf/chocolatey-packages@brother-ptp700-driver-7.3.0/icons/brother-ptp700-driver.png</iconUrl>
     <tags>brother bpac b-pac b-pac3 client component label printer sdk automation com activex</tags>
     <summary>Runtime component for applications that print labels with Brother b-PAC3.</summary>
     <description>Installs the Brother b-PAC3 Client Component required to run applications that use b-PAC3 label-printing automation.
@@ -20,7 +21,7 @@
 On 64-bit Windows, this package installs both the 32-bit and 64-bit components so applications of either architecture can use b-PAC3. On 32-bit Windows, it installs the 32-bit component only.
 
 This package installs the client component only. It does not install the b-PAC SDK, samples, documentation, a Brother printer driver, or P-touch Editor.</description>
-    <releaseNotes>Packages Brother b-PAC Client Component 3.4.015, released 30 September 2025.</releaseNotes>
+    <releaseNotes>Adds a package icon URL. Packages Brother b-PAC Client Component 3.4.015, released 30 September 2025.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
