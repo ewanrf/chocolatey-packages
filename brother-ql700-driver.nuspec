@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>brother-ql700-driver</id>
-    <version>6.5.0</version>
+    <version>6.5.1</version>
     <title>Brother QL-700 Printer Driver</title>
-    <owners>ewanrf</owners>
+    <owners>seacrackersinception</owners>
     <authors>Brother Industries, Ltd.</authors>
     <copyright>Copyright Brother Industries, Ltd.</copyright>
     <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages/tree/brother-ql700-driver</packageSourceUrl>
@@ -21,7 +21,7 @@
 This package installs only the printer driver. It does not install P-touch Editor or other Brother utilities. Windows on ARM is not supported by the vendor.
 
 For unattended installation, the package adds the exact Brother code-signing certificate used by this driver to the local machine's Trusted Publishers certificate store.</description>
-    <releaseNotes>Packages Brother Printer Driver 6.5.0c, released 18 February 2025.</releaseNotes>
+    <releaseNotes>Packaging metadata update: sets the package owner to seacrackersinception. Packages Brother Printer Driver 6.5.0c, released 18 February 2025.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
