@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>chatgpt-msix</id>
+    <id>chatgpt-desktop</id>
     <version>26.818.8289.1</version>
     <title>ChatGPT Desktop</title>
     <authors>OpenAI</authors>

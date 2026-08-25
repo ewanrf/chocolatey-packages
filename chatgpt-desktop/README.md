@@ -1,4 +1,4 @@
-# ChatGPT MSIX Chocolatey package
+# ChatGPT Desktop Chocolatey package
 
 Installs OpenAI's official ChatGPT Desktop MSIX for Windows x64.
 
@@ -7,7 +7,7 @@ The install script downloads the MSIX from `persistent.oaistatic.com`, checks it
 ## Test
 
 ```powershell
-choco pack .\chatgpt-msix\chatgpt-msix.nuspec --outputdirectory .\pack-check
-choco install chatgpt-msix --source "$env:USERPROFILE\Desktop" --accept-license -y
-choco uninstall chatgpt-msix -y
+choco pack .\chatgpt-desktop\chatgpt-desktop.nuspec --outputdirectory .\pack-check
+choco install chatgpt-desktop --source "$env:USERPROFILE\Desktop" --accept-license -y
+choco uninstall chatgpt-desktop -y
 ```
