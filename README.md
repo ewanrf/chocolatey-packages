@@ -23,6 +23,7 @@ The package selects Anthropic's official signed x64 or ARM64 MSIX, validates its
 
 ## Vendor payloads
 
+- Package version: 1.34493.1.1
 - Installer version: 1.34493.1
 - x64 download: `https://claude.ai/api/desktop/win32/x64/msix/latest/redirect`
 - x64 SHA-256: `AD5EAD595FEC1977C0CCB1D7FAB3BE040773B716451431DBD6BAB457BA31A55C`
