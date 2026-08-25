@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>claude-desktop</id>
-    <version>1.34493.1.1</version>
+    <version>1.34493.1.2</version>
     <title>Claude Desktop</title>
     <owners>ewanrf</owners>
     <authors>Anthropic PBC</authors>
@@ -12,13 +12,13 @@
     <licenseUrl>https://www.anthropic.com/legal/consumer-terms</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows</docsUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/ewanrf/chocolatey-packages@claude-desktop-1.34493.1.1/icons/claude.png</iconUrl>
-    <tags>claude anthropic ai chat desktop msix windows</tags>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ewanrf/chocolatey-packages@claude-desktop-1.34493.1.2/icons/claude.png</iconUrl>
+    <tags>claude anthropic ai chat desktop windows</tags>
     <summary>Claude Desktop for Windows.</summary>
     <description>Claude Desktop is Anthropic's Windows application for Claude chat, Claude Code, and Claude Cowork.
 
-This package downloads Anthropic's official signed MSIX installer for the native x64 or ARM64 architecture, validates its SHA-256 checksum, and installs it for the current user. Windows 10 version 1903 or later is required.</description>
-    <releaseNotes>Adds the official Claude Desktop app icon. Packages Claude Desktop 1.34493.1 for Windows x64 and ARM64.</releaseNotes>
+This package downloads Anthropic's official signed x64 installer, validates its SHA-256 checksum, and installs it silently for the current user.</description>
+    <releaseNotes>Uses the official signed x64 installer so Chocolatey can support the verifier environment. Packages Claude Desktop 1.34493.1.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

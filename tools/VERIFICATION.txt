@@ -1,9 +1,5 @@
-1. Download the x64 MSIX from:
-   https://claude.ai/api/desktop/win32/x64/msix/latest/redirect
-   Its SHA-256 checksum is AD5EAD595FEC1977C0CCB1D7FAB3BE040773B716451431DBD6BAB457BA31A55C.
+1. Download the x64 installer from:
+   https://downloads.claude.ai/releases/win32/x64/1.34493.1/Claude-255293a41a25d54c5177aa9614fb4cd620e70b78.exe
+   Its SHA-256 checksum is 44BC7D2BF386D4CAD48F75434F6297343DCFC27294A0667D619E08F8C732EE91.
 
-2. Download the ARM64 MSIX from:
-   https://claude.ai/api/desktop/win32/arm64/msix/latest/redirect
-   Its SHA-256 checksum is 3F5ECCED9682CF1BCA9226DCF4275C9747494B0DE7971812A9B1CCF57D7F9395.
-
-3. Both MSIX files report a valid Authenticode signature from Anthropic, PBC.
+2. The installer reports a valid Authenticode signature from Anthropic, PBC.
