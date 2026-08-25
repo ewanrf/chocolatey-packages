@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>brother-ql800-driver</id>
-    <version>1.10.1</version>
+    <version>1.10.2</version>
     <title>Brother QL-800 Printer Driver</title>
-    <owners>ewanrf</owners>
+    <owners>seacrackersinception</owners>
     <authors>Brother Industries, Ltd.</authors>
     <copyright>Copyright Brother Industries, Ltd.</copyright>
     <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages/tree/brother-ql800-driver</packageSourceUrl>
@@ -19,7 +19,7 @@
     <description>Installs Brother's printer driver for the QL-800 label printer.
 
 This package installs only the printer driver. It does not install P-touch Editor or the Printer Setting Tool. Windows on ARM is not supported by the vendor.</description>
-    <releaseNotes>Packages Brother Printer Driver 1.10.1c, released 21 March 2025.</releaseNotes>
+    <releaseNotes>Packaging metadata update: sets the package owner to seacrackersinception. Packages Brother Printer Driver 1.10.1c, released 21 March 2025.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
