@@ -9,6 +9,11 @@ $checksum = '56B4F1667A69F0661F135EFF345F7369E3557A44514E93DC141662F6B50516AF'
 $expectedPublisher = 'CN=50BDFD77-8903-4850-9FFE-6E8522F64D5B'
 $expectedThumbprint = '3E7198AD1E2A836E84A0FE16E0E45379083DA80B'
 $targetVersion = [version]'26.818.8289.0'
+$minimumBuild = 19041
+
+if ([Environment]::OSVersion.Version.Build -lt $minimumBuild) {
+    throw "ChatGPT Desktop requires Windows 10 version 2004 (build $minimumBuild) or later."
+}
 
 $installedPackage = Get-AppxPackage -Name 'OpenAI.Codex' -ErrorAction SilentlyContinue |
     Sort-Object Version -Descending |

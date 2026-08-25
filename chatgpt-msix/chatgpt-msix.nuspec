@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>chatgpt-msix</id>
-    <version>26.818.8289.3</version>
+    <version>26.818.8289.4</version>
     <title>ChatGPT Desktop</title>
     <authors>OpenAI</authors>
     <owners>seacrackersinception</owners>
@@ -20,7 +20,7 @@
 This package downloads OpenAI's official x64 MSIX, verifies its SHA-256 checksum and Authenticode signature, then installs it for the current user. It requires Windows 10 version 2004 (build 19041) or later.
 
 You must sign in with a ChatGPT account. Feature availability depends on your ChatGPT plan and workspace settings.</description>
-    <releaseNotes>Packaging revision: adds the official ChatGPT application icon.</releaseNotes>
+    <releaseNotes>Fails immediately on unsupported Windows builds, before downloading the MSIX.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
