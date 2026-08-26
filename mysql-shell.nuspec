@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mysql-shell</id>
+    <version>26.7.1.2</version>
+    <title>MySQL Shell</title>
+    <owners>seacrackersinception</owners>
+    <authors>Oracle and/or its affiliates</authors>
+    <copyright>Oracle and/or its affiliates</copyright>
+    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages</packageSourceUrl>
+    <projectUrl>https://dev.mysql.com/downloads/shell/</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/mysql/mysql-shell/26.7.1/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://dev.mysql.com/doc/mysql-shell/26.7/en/</docsUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ewanrf/chocolatey-packages@mysql-shell-26.7.1.2/icons/mysql-shell.png</iconUrl>
+    <dependencies>
+      <dependency id="vcredist140" version="[14.40.0,)" />
+    </dependencies>
+    <tags>mysql shell database sql javascript python oracle admin</tags>
+    <summary>Advanced command-line client and administrative shell for MySQL.</summary>
+    <description>MySQL Shell is an advanced command-line client for MySQL. It supports SQL, JavaScript, and Python, and includes tools for MySQL administration, InnoDB Cluster, and data migration.
+
+This package installs the official signed 64-bit MSI bundled in the package. The MSI is not downloaded during installation.</description>
+    <releaseNotes>Packages MySQL Shell 26.7.1 for Windows x64. Installs Microsoft Visual C++ Redistributable 14.40.0 or newer when needed. Adds explicit MSI uninstallation, disables the MSI post-install shell launch, and enables Windows Installer fast-install mode for the large bundled MSI.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

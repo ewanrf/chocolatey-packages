@@ -1,0 +1,10 @@
+1. The bundled MSI was downloaded from:
+   https://cdn.mysql.com/Downloads/MySQL-Shell/mysql-shell-26.7.1-windows-x86-64bit.msi
+
+2. Its SHA-256 checksum is:
+   2AE7405A0A76FEA7FFC6D95E400C1BA7194EACA8F9556F53DA386579B826F754
+
+3. The MSI reports a valid Authenticode signature from Oracle America, Inc.
+
+4. LICENSE.txt is the vendor's MySQL Shell 26.7.1 Community license file,
+   extracted verbatim from the bundled MSI.
