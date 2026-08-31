@@ -21,6 +21,9 @@ This package downloads Microsoft's signed M365 Copilot Desktop Installer, verifi
 
 The package does not include a Microsoft 365 subscription or a Microsoft 365 Copilot license. Microsoft manages application updates through the installed app and its delivery service.</description>
     <releaseNotes>Initial package. Version tracks the inspected Microsoft MSIX bootstrapper, version 16.0.19305.44702.</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist140" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
