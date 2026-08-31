@@ -5,10 +5,10 @@ $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $msixPath = Join-Path $toolsDir 'ChatGPT-x64.msix'
 
 $url = 'https://persistent.oaistatic.com/codex-app-prod/ChatGPT-x64.msix'
-$checksum = '56B4F1667A69F0661F135EFF345F7369E3557A44514E93DC141662F6B50516AF'
+$checksum = '1A3088E72FCCA3F9CABB1EB288CFC9CA78BD6392DBDD42CB20D1317040AF0056'
 $expectedPublisher = 'CN=50BDFD77-8903-4850-9FFE-6E8522F64D5B'
-$expectedThumbprint = '3E7198AD1E2A836E84A0FE16E0E45379083DA80B'
-$targetVersion = [version]'26.818.8289.0'
+$expectedThumbprint = 'EF37AE84D33026A24D437EDBC40A5D81A5AD0CC7'
+$targetVersion = [version]'26.825.6671.0'
 $minimumBuild = 19041
 
 if ([Environment]::OSVersion.Version.Build -lt $minimumBuild) {
