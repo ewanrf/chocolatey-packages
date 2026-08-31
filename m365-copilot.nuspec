@@ -7,7 +7,7 @@
     <authors>Microsoft Corporation</authors>
     <owners>seacrackersinception</owners>
     <copyright>Copyright Microsoft Corporation</copyright>
-    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages/tree/m365-copilot</packageSourceUrl>
     <iconUrl>https://store-images.s-microsoft.com/image/apps.63005.9007199267161390.afb6b8cd-d194-4a99-b633-03cd80118a21.b285711d-cdd2-4b00-9599-773750d905e0</iconUrl>
     <projectUrl>https://apps.microsoft.com/detail/9wzdncrd29v9</projectUrl>
     <docsUrl>https://learn.microsoft.com/en-us/microsoft-365/copilot/faq-deploy-microsoft-365-copilot-app</docsUrl>
