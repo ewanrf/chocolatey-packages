@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>m365-copilot</id>
+    <version>16.0.19305.44702</version>
+    <title>Microsoft 365 Copilot (MSIX)</title>
+    <authors>Microsoft Corporation</authors>
+    <owners>seacrackersinception</owners>
+    <copyright>Copyright Microsoft Corporation</copyright>
+    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages</packageSourceUrl>
+    <iconUrl>https://store-images.s-microsoft.com/image/apps.63005.9007199267161390.afb6b8cd-d194-4a99-b633-03cd80118a21.b285711d-cdd2-4b00-9599-773750d905e0</iconUrl>
+    <projectUrl>https://apps.microsoft.com/detail/9wzdncrd29v9</projectUrl>
+    <docsUrl>https://learn.microsoft.com/en-us/microsoft-365/copilot/faq-deploy-microsoft-365-copilot-app</docsUrl>
+    <licenseUrl>https://go.microsoft.com/fwlink/?LinkID=522502&amp;clcid=0x409</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>microsoft 365 copilot office productivity ai msix appx</tags>
+    <summary>Microsoft 365 Copilot desktop app installed through Microsoft's official MSIX bootstrapper.</summary>
+    <description>Microsoft 365 Copilot brings Microsoft 365 apps, files, search, AI chat, agents, Copilot Notebooks, and creation tools into one Windows desktop app. It supports personal, work, and school Microsoft accounts, although available features, data access, and AI capabilities depend on the account, license, tenant policy, and administrator settings.
+
+This package downloads Microsoft's signed M365 Copilot Desktop Installer, verifies its SHA-256 checksum and Authenticode signature, then runs it silently. The Microsoft bootstrapper retrieves and installs the Microsoft 365 Copilot MSIX package for the current user. It needs an internet connection and a supported Windows installation.
+
+The package does not include a Microsoft 365 subscription or a Microsoft 365 Copilot license. Microsoft manages application updates through the installed app and its delivery service.</description>
+    <releaseNotes>Initial package. Version tracks the inspected Microsoft MSIX bootstrapper, version 16.0.19305.44702.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
