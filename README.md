@@ -1,4 +1,4 @@
-# Microsoft 365 Copilot (MSIX)
+# Microsoft 365 Copilot
 
 This package downloads the Microsoft-signed M365 Copilot Desktop Installer, verifies its SHA-256 checksum and Authenticode signature, and runs it silently. The Microsoft bootstrapper retrieves and installs the `Microsoft.MicrosoftOfficeHub` MSIX for the current user.
 
