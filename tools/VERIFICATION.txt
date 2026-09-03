@@ -1,5 +1,17 @@
-1. Download the x64 installer from:
-   https://downloads.claude.ai/releases/win32/x64/1.34493.1/Claude-255293a41a25d54c5177aa9614fb4cd620e70b78.exe
-   Its SHA-256 checksum is 44BC7D2BF386D4CAD48F75434F6297343DCFC27294A0667D619E08F8C732EE91.
+Official deployment documentation:
+https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows
 
-2. The installer reports a valid Authenticode signature from Anthropic, PBC.
+The package downloads Anthropic's current release from:
+x64: https://claude.ai/api/desktop/win32/x64/msix/latest/redirect
+ARM64: https://claude.ai/api/desktop/win32/arm64/msix/latest/redirect
+
+There is intentionally no fixed checksum because these URLs track new releases.
+Before installation, chocolateyinstall.ps1 requires a Valid Authenticode status
+and the exact Anthropic publisher identity. It also checks the signed MSIX
+manifest's app name (Claude), publisher, architecture and minimum OS version.
+The downloaded manifest version is compared with the installed version to
+avoid reinstalling or downgrading an equal or newer app.
+
+On 3 September 2026, both payloads had Valid signatures from Anthropic, PBC,
+and AppxManifest.xml reported version 1.44121.4.0. Future releases may differ.
+No vendor installer is embedded in the Chocolatey package.

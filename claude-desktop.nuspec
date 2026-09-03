@@ -2,23 +2,25 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>claude-desktop</id>
-    <version>1.34493.1.2</version>
+    <version>1.44121.4</version>
     <title>Claude Desktop</title>
-    <owners>ewanrf</owners>
+    <owners>seacrackersinception</owners>
     <authors>Anthropic PBC</authors>
     <copyright>Anthropic PBC</copyright>
-    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages/tree/claude-desktop</packageSourceUrl>
     <projectUrl>https://claude.com/download</projectUrl>
     <licenseUrl>https://www.anthropic.com/legal/consumer-terms</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows</docsUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/ewanrf/chocolatey-packages@claude-desktop-1.34493.1.2/icons/claude.png</iconUrl>
-    <tags>claude anthropic ai chat desktop windows</tags>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ewanrf/chocolatey-packages@claude-desktop-1.44121.4/icons/claude.png</iconUrl>
+    <tags>claude anthropic ai chat desktop msix windows</tags>
     <summary>Claude Desktop for Windows.</summary>
     <description>Claude Desktop is Anthropic's Windows application for Claude chat, Claude Code, and Claude Cowork.
 
-This package downloads Anthropic's official signed x64 installer, validates its SHA-256 checksum, and installs it silently for the current user.</description>
-    <releaseNotes>Uses the official signed x64 installer so Chocolatey can support the verifier environment. Packages Claude Desktop 1.34493.1.</releaseNotes>
+This package downloads Anthropic's current official MSIX for Windows x64 or ARM64, verifies its Authenticode signature and publisher identity, then installs it for the current user. It requires Windows 10 version 2004 (build 19041) or later.
+
+The download follows Anthropic's latest release rather than a fixed installer version. The package compares the downloaded app's manifest version with the installed app and skips installation if the same or a newer version is already installed.</description>
+    <releaseNotes>Downloads the current official MSIX, verifies the Anthropic signature and app identity without a fixed checksum, and compares the app version before installation. Includes the official Claude icon. Current MSIX inspected at packaging: 1.44121.4.0.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
