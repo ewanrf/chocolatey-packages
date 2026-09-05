@@ -8,10 +8,10 @@
     <owners>seacrackersinception</owners>
     <copyright>Copyright Microsoft Corporation</copyright>
     <packageSourceUrl>https://github.com/ewanrf/chocolatey-packages/tree/m365-copilot</packageSourceUrl>
-    <iconUrl>https://store-images.s-microsoft.com/image/apps.63005.9007199267161390.afb6b8cd-d194-4a99-b633-03cd80118a21.b285711d-cdd2-4b00-9599-773750d905e0</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/ewanrf/chocolatey-packages/m365-copilot/icons/microsoft-365-copilot.png</iconUrl>
     <projectUrl>https://apps.microsoft.com/detail/9wzdncrd29v9</projectUrl>
     <docsUrl>https://learn.microsoft.com/en-us/microsoft-365/copilot/faq-deploy-microsoft-365-copilot-app</docsUrl>
-    <licenseUrl>https://go.microsoft.com/fwlink/?LinkID=522502&amp;clcid=0x409</licenseUrl>
+    <licenseUrl>https://www.microsoft.com/en-us/servicesagreement/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>microsoft 365 copilot office productivity ai msix appx</tags>
     <summary>Microsoft 365 Copilot desktop app installed through Microsoft's official MSIX bootstrapper.</summary>
@@ -22,7 +22,7 @@ This package downloads Microsoft's signed M365 Copilot Desktop Installer, verifi
 The package does not include a Microsoft 365 subscription or a Microsoft 365 Copilot license. Microsoft manages application updates through the installed app and its delivery service.</description>
     <releaseNotes>Initial package. Version tracks the inspected Microsoft MSIX bootstrapper, version 16.0.19305.44702.</releaseNotes>
     <dependencies>
-      <dependency id="vcredist140" />
+      <dependency id="vcredist140" version="[14.51.36247,)" />
     </dependencies>
   </metadata>
   <files>
